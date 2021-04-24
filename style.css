@@ -2,6 +2,7 @@
     --primary-color: #011414;
     --secondary-color: rgb(28, 28, 187);
     --tertiary-color: #17a178;
+    --additional-color: white;
 }
 
 * {
@@ -43,7 +44,8 @@ header h1 {
 }
 
 header a {
-    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
     color: var(--primary-color);
 }
 
@@ -98,4 +100,42 @@ footer {
   /* STYLE ALL SECTION TAGS */
   section {
       padding: 60px;
+  }
+
+  /* HERO STYLES START */
+  .hero {
+      background-image: url(./images/background.jpg);
+      background-size: cover;
+      display: flex;
+      flex-wrap: wrap;
+      background-attachment: fixed;
+      background-position: 25%;
+      justify-content: space-between;
+  }
+
+  .headshot-img {
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+
+  .hero-box {
+      width: auto;
+      padding: 50px;
+      margin: 20px;
+      justify-content: flex-end;
+      align-items: flex-end;
+      background-color: var(--tertiary-color);
+      border-radius: 15px;
+      box-shadow: var(--additional-color);
+     
+      
+  }
+
+.hero-box p {
+    font-size: large;
+    color: var(--additional-color);
+}
+
+  .flex.row {
+      display: flex;
   }
