@@ -111,7 +111,8 @@ footer {
       display: flex;
       flex-wrap: wrap;
       background-attachment: fixed;
-      background-position: 25%;
+      background-position: bottom;
+      background-repeat:no-repeat;
       justify-content: space-between;
       align-items: flex-end;
   }
@@ -161,22 +162,29 @@ footer {
     text-shadow: 0 0 10px var(--tertiary-color); 
 }
 
-/* ABOUT ME SECTION ENDS */
-
-.run-buddy-page {
-    height: 400px;
-    width: 800px;
-    border: 10px #011414 solid;    
+.flex-row p {
+    padding: 0px 25px;
+    font-size: .70vw;
 }
 
-.horiseon-page {
+/* ABOUT ME SECTION ENDS */
+
+
+/* MY PROJECTS SECTION STARTS */
+
+.run-buddy-img {
+    height: 400px;
+    width: 800px;
+    border: 10px #011414 solid;   
+    position: relative; 
+}
+
+.horiseon-img, .portfolio-img {
     height: 200px;
     width: 400px;
     border: 10px #011414 solid;
+    position: relative;
 }
-/* MY PROJECTS SECTION STARTS */
-
-
 
 /* MY PROJECTS SECTION ENDS */
 
@@ -184,8 +192,27 @@ footer {
 
 
 /* CONTACT ME SECTION STARTS */
+ .contact {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: auto;
+ }
 
+ .contact a {
+     margin: auto;
+     font-size: 1vw;
+     padding: 100px;
+     
+ }
 
 /* CONTACT ME SECTION ENDS */
 
- 
+
+
+
+ /* MEDIA QUERY START */
+
+
+ /* MEDIA QUERY ENDS */
