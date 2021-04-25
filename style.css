@@ -194,6 +194,10 @@ footer {
     border: 10px #011414 solid;
 }
 
+.run-buddy-img:hover, .horiseon-img:hover, .portfolio-img:hover {
+background-color: var(--additional-color);
+opacity: .7;
+}
 /* MY PROJECTS SECTION / FLEXBOX ENDS */
 
 
