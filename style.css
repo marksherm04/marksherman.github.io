@@ -36,7 +36,7 @@ header {
 
 header h1 {
     font-weight: bold;
-    margin: 0%;
+    margin: 0;
     font-size: 48px;
     font-style: italic;
     color: var(--primary-color);
@@ -99,10 +99,11 @@ footer {
 
   /* STYLE ALL SECTION TAGS */
   section {
-      padding: 60px;
-  }
+    padding: 100px;
+}
+/* END STYLE TAGS */
 
-  /* HERO STYLES START */
+  /* HERO STYLE STARTS */
   .hero {
       background-image: url(./images/background.jpg);
       background-size: cover;
@@ -111,31 +112,68 @@ footer {
       background-attachment: fixed;
       background-position: 25%;
       justify-content: space-between;
-  }
-
-  .headshot-img {
-      justify-content: flex-start;
-      align-items: flex-start;
-  }
-
-  .hero-box {
-      width: auto;
-      padding: 50px;
-      margin: 20px;
-      justify-content: flex-end;
       align-items: flex-end;
+  }
+
+  .hero-subtitle {
+      height: 70px;
+      padding: 40px;
+      margin: 20px;
       background-color: var(--tertiary-color);
       border-radius: 15px;
       box-shadow: var(--additional-color);
-     
-      
+      display: flex;
+      align-items: center;
   }
 
-.hero-box p {
-    font-size: large;
-    color: var(--additional-color);
+.hero-subtitle h2 {
+    font-size: 36px;
+    color: var(--primary-color);
 }
 
-  .flex.row {
-      display: flex;
-  }
+.headshot-img {
+    width: 350px;
+    height: 400px; 
+}
+/* HERO STYLE ENDS */
+
+/* ABOUT ME SECTION STARTS */
+.my-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.flex-row {
+    display: flex;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 1.25vw;
+    text-shadow: 0 0 10px var(--tertiary-color);
+}
+
+/* ABOUT ME SECTION ENDS */
+
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/* MY PROJECTS SECTION STARTS */
+
+
+
+/* MY PROJECTS SECTION ENDS */
+
+
+
+
+/* CONTACT ME SECTION STARTS */
+
+
+/* CONTACT ME SECTION ENDS */
+
+ 
