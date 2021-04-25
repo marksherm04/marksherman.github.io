@@ -200,9 +200,6 @@ opacity: .7;
 }
 /* MY PROJECTS SECTION / FLEXBOX ENDS */
 
-
-
-
 /* CONTACT ME SECTION STARTS */
  .contact {
     display: flex;
@@ -220,9 +217,18 @@ opacity: .7;
 /* CONTACT ME SECTION ENDS */
 
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}  
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER ENDS */
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+}
+  /* MEDIA QUERY FOR TABLETS AND SMALLER ENDS */
 
- /* MEDIA QUERY START */
-
-
- /* MEDIA QUERY ENDS */
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER STARTS */
+  @media screen and (max-width: 575px) {
+  }
+    /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  
