@@ -170,23 +170,31 @@ footer {
 /* ABOUT ME SECTION ENDS */
 
 
-/* MY PROJECTS SECTION STARTS */
+/* MY PROJECTS SECTION / FLEXBOX STARTS */
+.projects {
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.project-small {
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block
+}
 
 .run-buddy-img {
-    height: 400px;
-    width: 800px;
-    border: 10px #011414 solid;   
-    position: relative; 
+    height: 600px;
+    width: 1004px;
+    border: 10px #011414 solid;
 }
 
 .horiseon-img, .portfolio-img {
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
     border: 10px #011414 solid;
-    position: relative;
 }
 
-/* MY PROJECTS SECTION ENDS */
+/* MY PROJECTS SECTION / FLEXBOX ENDS */
 
 
 
@@ -194,7 +202,6 @@ footer {
 /* CONTACT ME SECTION STARTS */
  .contact {
     display: flex;
-    justify-content: space-between;
     display: inline-block;
     flex-wrap: wrap;
     margin: auto;
@@ -204,7 +211,6 @@ footer {
      margin: auto;
      font-size: 1vw;
      padding: 100px;
-     
  }
 
 /* CONTACT ME SECTION ENDS */
