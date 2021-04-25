@@ -1,14 +1,15 @@
-:root {
-    --primary-color: #011414;
-    --secondary-color: rgb(28, 28, 187);
-    --tertiary-color: #17a178;
-    --additional-color: white;
-}
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --primary-color: #011414;
+    --secondary-color: rgb(28, 28, 187);
+    --tertiary-color: #17a178;
+    --additional-color: white;
 }
 
 body {
@@ -129,6 +130,10 @@ footer {
 .hero-subtitle h2 {
     font-size: 36px;
     color: var(--primary-color);
+    font-weight: lighter;
+    font-style: bold;
+    font-size: 1.25vw;
+    text-shadow: 0 0 10px var(--additional-color);
 }
 
 .headshot-img {
@@ -146,22 +151,29 @@ footer {
 
 .flex-row {
     display: flex;
+}
+
+.flex-row h2 {
+    padding: 20px 25px;
     font-weight: lighter;
     font-style: italic;
     font-size: 1.25vw;
-    text-shadow: 0 0 10px var(--tertiary-color);
+    text-shadow: 0 0 10px var(--tertiary-color); 
 }
 
 /* ABOUT ME SECTION ENDS */
 
-.my-work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.run-buddy-page {
+    height: 400px;
+    width: 800px;
+    border: 10px #011414 solid;    
 }
 
-
-
+.horiseon-page {
+    height: 200px;
+    width: 400px;
+    border: 10px #011414 solid;
+}
 /* MY PROJECTS SECTION STARTS */
 
 
