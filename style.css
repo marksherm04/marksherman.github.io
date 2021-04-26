@@ -172,6 +172,9 @@ footer {
 
 /* MY PROJECTS SECTION / FLEXBOX STARTS */
 .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px 10px;
     margin: 0 auto;
 }
@@ -184,13 +187,19 @@ footer {
     justify-content: center;
 }
 
+.project:first-child {
+    width: 100%;
+}
+
 .text {
    position: absolute;
    color: var(--additional-color);
    font-weight: bold;
+   font-size: 24px;
    background-color: var(--primary-color);
    box-shadow: var(--additional-color);
    border-color: black;
+   border-style: groove;
 }
 
 .run-buddy-img {
