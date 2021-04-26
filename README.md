@@ -16,7 +16,7 @@ https://marksherm04.github.io/marksherman.github.io/
 
 ##### I added a line to the right of every section to help give the site some flow.  I would still like to line them up better to all be uniform.
 
-##### My Projects sections is the beef of the site.  I only have 3 projects so far, but I am exicted to keep adding to this for my portfolio.  I stacked the Run Buddy at the top since this is the most complex project yet. I included article classes inside of the section for my flex box layout.
+##### My Projects sections is the beef of the site.  I only have 3 projects so far, but I am exicted to keep adding to this for my portfolio.  I stacked the Run Buddy at the top since this is the most complex project yet. I included article classes inside of the section for my flex box layout. You can also click the links to go to the pages they are directed too and the opacity allows the visitor to hover over each projects and the color changes light.
 
 ##### The Contact Me section all lined up with information such as my phone number, email, Twitter, and my Apple Music link.  This can evlove over time to make it more professional.  
 
