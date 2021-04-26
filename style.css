@@ -144,11 +144,7 @@ footer {
 /* HERO STYLE ENDS */
 
 /* ABOUT ME SECTION STARTS */
-.my-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-}
+
 
 .flex-row {
     display: flex;
@@ -165,6 +161,9 @@ footer {
 .flex-row p {
     padding: 0px 25px;
     font-size: .70vw;
+    text-align: left;
+    padding-left: 225px;
+    flex-wrap: wrap;
 }
 
 /* ABOUT ME SECTION ENDS */
@@ -175,7 +174,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 10px;
+    padding: 20px 20px;
     margin: 0 auto;
 }
 
@@ -185,6 +184,7 @@ footer {
     align-items: center;
     -moz-box-pack: center;
     justify-content: center;
+    padding: 0 5px;
 }
 
 .project:first-child {
@@ -204,7 +204,7 @@ footer {
 
 .run-buddy-img {
     height: 600px;
-    width: 1004px;
+    width: 1010px;
     border: 10px #011414 solid;
 }
 
