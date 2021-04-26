@@ -10,7 +10,7 @@ https://marksherm04.github.io/marksherman.github.io/
 
 ##### In the header I have my name at the top left, and I added navigation to list the different sections be able to jump to by clicking on the associated word.  
 
-##### In the hero section, I added a picture of myself and a temporary subtitle.  Since I didn't have a call to action on this part of the page. I thought it was important to add a picture to warm the view up to who I am.  I added a background banner of the beginning of the loas ocean, as this journey has just begun.
+##### In the hero section, I added a picture of myself and a temporary subtitle.  Since I didn't have a call to action on this part of the page. I thought it was important to add a picture to warm the view up to who I am.  I added a background banner of the beginning of the loas ocean, as this journey has just begun.  I also decided in the media queries that it wasn't necessary for my subtitle box to be part of the screen when you scaled down the screen size, so I added display: none to .hero-subtitle.  This was a new command for me!
 
 ##### The About Me section just has a basic intro that will be updated over time but will be a good placeholder for now.
 
