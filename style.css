@@ -202,9 +202,14 @@ footer {
    border-style: groove;
 }
 
-.run-buddy-img {
+.travel-bucket-img {
     height: 600px;
     width: 1010px;
+    border: 10px #011414 solid;
+}
+.run-buddy-img {
+    height: 300px;
+    width: 500px;
     border: 10px #011414 solid;
 }
 
@@ -220,10 +225,13 @@ footer {
     border: 10px #011414 solid;
 }
 
-.run-buddy-img:hover, .horiseon-img:hover, .portfolio-img:hover {
+
+
+.run-buddy-img:hover, .horiseon-img:hover, .portfolio-img:hover, .travel-bucket-img:hover {
 background-color: var(--additional-color);
 opacity: .7;
 }
+
 /* MY PROJECTS SECTION / FLEXBOX ENDS */
 
 /* CONTACT ME SECTION STARTS */
